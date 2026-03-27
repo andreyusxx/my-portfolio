@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Досягнення | Андрій Шарагін</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; background: #f4f4f9; text-align: center; padding: 50px; }
+        .title { color: #333; font-size: 2.5em; margin-bottom: 40px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; max-width: 1100px; margin: 0 auto; }
+        .cert-card { background: white; padding: 15px; border-radius: 12px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); transition: 0.3s; cursor: pointer; }
+        .cert-card:hover { transform: translateY(-5px); box-shadow: 0 8px 20px rgba(0,0,0,0.15); }
+        img { width: 100%; height: auto; border-radius: 6px; }
+        p { color: #666; font-size: 1.1em; margin-top: 10px; }
+    </style>
+</head>
+<body>
+    <h1 class="title">Мої сертифікати</h1>
+    <div class="grid">
+        <div class="cert-card" onclick="window.open('sert1.jpg', '_blank')">
+            <img src="sert1.jpg" alt="Certificate 1">
+        </div>
+        <div class="cert-card" onclick="window.open('sert2.jpg', '_blank')">
+            <img src="sert2.jpg" alt="Certificate 2">
+        </div>
+        <div class="cert-card" onclick="window.open('sert3.jpg', '_blank')">
+            <img src="sert3.jpg" alt="Certificate 3">
+        </div>
+        <div class="cert-card" onclick="window.open('sert4.jpg', '_blank')">
+            <img src="sert4.jpg" alt="Certificate 4">
+        </div>
+        <div class="cert-card" onclick="window.open('sert5.jpg', '_blank')">
+            <img src="sert5.jpg" alt="Certificate 5">
+        </div>
+    </div>
+</body>
+</html>
